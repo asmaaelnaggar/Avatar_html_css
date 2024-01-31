@@ -1,0 +1,88 @@
+
+*{
+    padding: 0;
+    margin:0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-image: 
+    linear-gradient(to right,#01022de5 30%,#00000088),url(imgs/Avatar\ image.jpg);
+    width: 80%;
+    height: 640px;
+    background-position: center;
+}
+
+.container:hover{
+    background-image: 
+    linear-gradient(to right,#01022de5 30%,transparent),url(imgs/Avatar\ image.jpg);
+}
+@media (min-width:743px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+@media (min-width:743px){
+    ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    gap: 10px;
+    list-style: none;
+    }
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 5vmin;
+    padding: 3vmin;
+    
+}
+.content h2{
+font-size: 10vmin;
+text-transform: uppercase;
+color: rgb(87, 87, 252);
+}
+.content p{
+    letter-spacing: 0.3vmin;
+    width: 40vmin;
+    padding: 2vmin 0;
+}
+.content button{
+    font-size: 4vmin;
+    padding: 0.6vmin 1vmin;
+    color: #000;
+    border-radius: 10px;
+    background-color: rgb(122, 122, 249);
+    cursor: pointer;
+}
+
+.content button:hover{
+    color: rgb(57, 57, 249);
+    background-color: transparent;
+    
+}
